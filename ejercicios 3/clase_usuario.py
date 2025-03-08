@@ -18,7 +18,6 @@ class Cliente(Usuario):
     def comprar(self):
         return f"{self.nombre} ha realizado una compra."
 
-# Instanciación de objetos con otros datos
 admin = Admin("admin1", "adminClave")
 cliente = Cliente("cliente1", "clienteClave")
 

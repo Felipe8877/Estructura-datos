@@ -22,12 +22,12 @@ class Desarrollador(Empleado):
     
     def trabajar(self):
         return f"{self.nombre} programa en {self.lenguaje}."
-
+    
 
 Mario= Desarrollador("Mario", 50000, "TI", "Python")
-maria = Desarrollador("Maria, 55000, "TI", "Java")
+maria = Desarrollador("Maria", 55000, "TI", "Java")
 carlos = Gerente("Carlos", 70000, "TI", [andres, maria])
 
-print(mario.trabajar())  
+print(Mario.trabajar())  
 print(maria.trabajar())  
 print(carlos.trabajar())
